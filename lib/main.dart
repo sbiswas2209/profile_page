@@ -63,12 +63,12 @@ class RolePage extends StatelessWidget {
                             bottomLeft: Radius.circular(25.0),
                           ),
                           image: DecorationImage(
-                            image: NetworkImage('https://media-exp1.licdn.com/dms/image/C510BAQHT2Hf1xXHPsw/company-logo_100_100/0?e=1602720000&v=beta&t=KgoiW_0oH8KhVdDm7glxW42zE26l7MHJ8G-HejA35sY'),
+                            image: NetworkImage('https://media-exp1.licdn.com/dms/image/C560BAQGJURf1AwU63A/company-logo_200_200/0?e=1609372800&v=beta&t=OwfVsQhItVnKqKQ-DRQOgdvhdCNoixf1zXHEO8HAHWQ'),
                             fit: BoxFit.fill,
                           ),
                         ),
                       ),
-                      title: Text('Flutter Developer\n@Naaniz',
+                      title: Text('Flutter Developer\n@Kaloory',
                         style: Theme.of(context).textTheme.headline1,
                       ),
                       subtitle: Text('Internship (Current)',
@@ -98,20 +98,55 @@ class RolePage extends StatelessWidget {
                             bottomLeft: Radius.circular(25.0),
                           ),
                           image: DecorationImage(
-                            image: NetworkImage('https://media-exp1.licdn.com/dms/image/C560BAQGOLTWqmBWDTw/company-logo_100_100/0?e=1602720000&v=beta&t=8KbeKQb2-opem9QNinwsBu3qmDOrwxa36GBdgsAVus8'),
+                            image: NetworkImage('https://media-exp1.licdn.com/dms/image/C510BAQHT2Hf1xXHPsw/company-logo_100_100/0?e=1602720000&v=beta&t=KgoiW_0oH8KhVdDm7glxW42zE26l7MHJ8G-HejA35sY'),
                             fit: BoxFit.fill,
                           ),
                         ),
                       ),
-                      title: Text('App Developer\n@BiocomSRM',
+                      title: Text('Flutter Developer\n@Naaniz',
                         style: Theme.of(context).textTheme.headline1,
                       ),
-                      subtitle: Text('Member (Current)',
+                      subtitle: Text('Internship (June 2020 - July 2020)',
                         style: Theme.of(context).textTheme.bodyText1,
                       ),
             ),
           ),
         ),
+        // Padding(
+        //   padding: const EdgeInsets.all(20.0),
+        //   child: Card(
+        //     shape: RoundedRectangleBorder(
+        //       borderRadius: BorderRadius.only(
+        //                     topRight: Radius.circular(25.0),
+        //                     bottomLeft: Radius.circular(25.0),
+        //                   ),
+        //     ),
+        //     color: Color(0XFE323232),
+        //               child: ListTile(
+        //       leading: Container(
+        //             width: 50,
+        //             height: 50,
+        //                 decoration: BoxDecoration(
+        //                   color: Colors.black,
+        //                   borderRadius: BorderRadius.only(
+        //                     topRight: Radius.circular(25.0),
+        //                     bottomLeft: Radius.circular(25.0),
+        //                   ),
+        //                   image: DecorationImage(
+        //                     image: NetworkImage('https://media-exp1.licdn.com/dms/image/C560BAQGOLTWqmBWDTw/company-logo_100_100/0?e=1602720000&v=beta&t=8KbeKQb2-opem9QNinwsBu3qmDOrwxa36GBdgsAVus8'),
+        //                     fit: BoxFit.fill,
+        //                   ),
+        //                 ),
+        //               ),
+        //               title: Text('App Developer\n@BiocomSRM',
+        //                 style: Theme.of(context).textTheme.headline1,
+        //               ),
+        //               subtitle: Text('Member (Current)',
+        //                 style: Theme.of(context).textTheme.bodyText1,
+        //               ),
+        //     ),
+        //   ),
+        // ),
         Padding(
           padding: const EdgeInsets.all(20.0),
           child: Card(
@@ -313,7 +348,7 @@ class _ProfilePageState extends State<ProfilePage> with TickerProviderStateMixin
                         bottomLeft: Radius.circular(25.0),
                       ),
                       image: DecorationImage(
-                        image: NetworkImage('https://media-exp1.licdn.com/dms/image/C5603AQGT49juoL0-FA/profile-displayphoto-shrink_400_400/0?e=1600300800&v=beta&t=qYL8TvKxeizyrCEUto5PLpxWl7MZgZMTTsjA7b-82Rg'),
+                        image: NetworkImage('https://s3.ap-south-1.amazonaws.com/com.personal.profile-page/sbiswas2209.png'),
                         fit: BoxFit.fill,
                       ),
                     ),
@@ -415,14 +450,18 @@ class _ProfilePageState extends State<ProfilePage> with TickerProviderStateMixin
               style: Theme.of(context).textTheme.headline1.copyWith(fontSize: 10.0),
             ),
             FlatButton.icon(
-              onPressed: null, 
+              onPressed: (){
+                
+              }, 
               icon: Icon(Icons.phone , color: Colors.amber), 
               label: Text('6289202677',
                 style: Theme.of(context).textTheme.bodyText1.copyWith(fontSize: 15.0 , color: Colors.amber),
               ),
             ),
             FlatButton.icon(
-              onPressed: null, 
+              onPressed: () {
+                
+              }, 
               icon: Icon(Icons.email , color: Colors.amber), 
               label: Text('sbiswas2209@outlook.com',
                 style: Theme.of(context).textTheme.bodyText1.copyWith(fontSize: 15.0 , color: Colors.amber),
